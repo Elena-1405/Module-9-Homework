@@ -1,0 +1,39 @@
+div {
+    margin-top: 20px;
+  }
+  .result{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  
+  .card {
+    width: 200px;
+      margin: 20px;
+  }
+  
+  .card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .btn {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 1px;
+    transition: 0.3s;
+  }
+
+  .btn:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+  }
+
+  .task {
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
